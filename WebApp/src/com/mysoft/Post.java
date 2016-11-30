@@ -27,4 +27,12 @@ public class Post {
     public void setTxt(String txt){
         this.txt=txt;
     }
+
+    @Override
+    public String toString() {
+        return "Post{"+
+                "id="+id+
+                ", txt='"+txt+"'"+
+                "}";
+    }
 }
